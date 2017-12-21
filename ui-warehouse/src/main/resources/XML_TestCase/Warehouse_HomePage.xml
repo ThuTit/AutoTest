@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+<testcase internalid="135421" name="Kiểm tra hiển thị trang Thống kê">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[11]]></externalid>
+	<fullexternalid><![CDATA[WHP-11]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>7</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[1: Login]]></actions>
+	<expectedresults><![CDATA[1: Trang login mở và login thành công]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[2: Trang Dashboard được hiển thị default]]></actions>
+	<expectedresults><![CDATA[2: Trang Dashboard được hiển thị sau khi login thành công ]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[3: Click vào [Thống kê] link]]></actions>
+	<expectedresults><![CDATA[3. Thông tin được hiển thị]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="135426" name="Kiểm tra việc hiển thị trang Kiểm kho">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[12]]></externalid>
+	<fullexternalid><![CDATA[WHP-12]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[1: Login]]></actions>
+	<expectedresults><![CDATA[1: Trang login mở và login thành công]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[2: Trang Dashboard được hiển thị default]]></actions>
+	<expectedresults><![CDATA[2: Trang Dashboard được hiển thị sau khi login thành công ]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[3: Click vào [Kiểm kho] link]]></actions>
+	<expectedresults><![CDATA[3: Trang được hiển thị ]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="135431" name="Kiểm tra việc hiển thị trang nhập kho">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[13]]></externalid>
+	<fullexternalid><![CDATA[WHP-13]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[1: Login]]></actions>
+	<expectedresults><![CDATA[1: Trang login mở và login thành công]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[2: Trang Dashboard được hiển thị default]]></actions>
+	<expectedresults><![CDATA[2: Trang Dashboard được hiển thị sau khi login thành công ]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[3: Click vào [Nhập kho] link]]></actions>
+	<expectedresults><![CDATA[3: Trang được hiển thị ]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="135436" name="Kiểm tra việc hiển thị trang dashboard">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[14]]></externalid>
+	<fullexternalid><![CDATA[WHP-14]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[1: Login]]></actions>
+	<expectedresults><![CDATA[1: Trang login mở và login thành công]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[2: Trang Dashboard được hiển thị default]]></actions>
+	<expectedresults><![CDATA[2: Trang Dashboard được hiển thị sau khi login thành công ]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[3: Click vào [Dashboard] link]]></actions>
+	<expectedresults><![CDATA[3: Trang Dashboard được hiển thị lại]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="135441" name="Kiểm tra việc hiển thị trang xuất kho">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[15]]></externalid>
+	<fullexternalid><![CDATA[WHP-15]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[1: Login]]></actions>
+	<expectedresults><![CDATA[1: Trang login mở và login thành công]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[2: Trang Dashboard được hiển thị default]]></actions>
+	<expectedresults><![CDATA[2: Trang Dashboard được hiển thị sau khi login thành công ]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[3: Click vào [Xuất kho] link]]></actions>
+	<expectedresults><![CDATA[3: Trang được hiển thị ]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="135446" name="Kiểm tra việc hiển thị trang Chuyển kho">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[16]]></externalid>
+	<fullexternalid><![CDATA[WHP-16]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>1: Login</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>1: Trang login mở v&agrave; login th&agrave;nh c&ocirc;ng</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>2: Trang Dashboard được hiển thị default</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>2: Trang Dashboard được hiển thị sau khi login th&agrave;nh c&ocirc;ng</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>3: Click v&agrave;o [Chuyển kho] link</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>3: Trang được hiển thị</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="135451" name="Kiểm tra việc hiển thị thông tin trên trang dashboard">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[17]]></externalid>
+	<fullexternalid><![CDATA[WHP-17]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[1: Login]]></actions>
+	<expectedresults><![CDATA[1: Trang login mở và login thành công]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[2: Trang Dashboard được hiển thị default]]></actions>
+	<expectedresults><![CDATA[2. HIển thị thông tin: Số sản phẩm đang có, số yêu cầu, số lượng kho, số lượng người dùng  và số lượng phiếu nhập]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+<testcase internalid="135460" name="Kiểm tra việc hiển thị username">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[19]]></externalid>
+	<fullexternalid><![CDATA[WHP-19]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[1: Login]]></actions>
+	<expectedresults><![CDATA[1: Trang login mở và login thành công]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[2: Trang Dashboard được hiển thị default]]></actions>
+	<expectedresults><![CDATA[2: Trang Dashboard được hiển thị sau khi login thành công ]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[3. Kiểm tra username]]></actions>
+	<expectedresults><![CDATA[Username được hiển thị]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+<testcase internalid="135470" name="Kiểm tra Logout">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[21]]></externalid>
+	<fullexternalid><![CDATA[WHP-21]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[1: Login]]></actions>
+	<expectedresults><![CDATA[1: Trang login mở và login thành công]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[2: Trang Dashboard được hiển thị default]]></actions>
+	<expectedresults><![CDATA[2: Trang Dashboard được hiển thị sau khi login thành công ]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[3. Nhấn vào avatar, sau đó click Logout]]></actions>
+	<expectedresults><![CDATA[3. Logout thành công, thoát khỏi hệ thống]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

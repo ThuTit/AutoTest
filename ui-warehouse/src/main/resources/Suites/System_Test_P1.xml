@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="System Test" verbose="1" preserve-order="true">
+	<test name="func-high" enabled="true">
+		<groups>
+			<run>
+				<exclude name="pending" />
+			</run>
+		</groups>
+		<classes>
+		    <class name="com.selenium.warehouse.system.testing.high.High_System_Test_Home_Page" />
+		    <class name="com.selenium.warehouse.system.testing.high.High_System_Test_Kiem_Kho_DSLS" />
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name="org.selenium.common.TestReportListener" />
+	</listeners>
+</suite>

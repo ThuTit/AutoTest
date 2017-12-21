@@ -1,0 +1,29 @@
+#Eclipse
+.classpath
+.project
+.settings/
+target/
+test-output/
+Screenshots/
+<<<<<<< HEAD
+
+=======
+>>>>>>> EM-4,EM-3:[QC][Selenium][WEB][TTTK]Giao dich/Thong tin - Write MAJOR test cases
+#intelljJ Idea
+.idea/
+out/
+*.ipr
+*.iws
+*.iml
+<<<<<<< HEAD
+
+=======
+>>>>>>> EM-4,EM-3:[QC][Selenium][WEB][TTTK]Giao dich/Thong tin - Write MAJOR test cases
+#Maven
+target/
+*.ser
+*.ec
+<<<<<<< HEAD
+
+=======
+>>>>>>> EM-4,EM-3:[QC][Selenium][WEB][TTTK]Giao dich/Thong tin - Write MAJOR test cases

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>auto-test</artifactId>
+    <groupId>com.autotest.teko</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.autotest.teko</groupId>
+  <artifactId>ui-warehouse</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  
+  <dependencies>
+		<dependency>
+			 <groupId>com.autotest.teko</groupId>
+             <artifactId>ui-common</artifactId>
+             <version>1.0-SNAPSHOT</version>
+		</dependency>
+  </dependencies>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+ </properties>
+  
+  <profiles>
+        <!-- System testing-->
+		<profile>
+			<id>System_Test_P1</id>
+			<properties>
+				<testSuite>System_Test_P1.xml</testSuite>
+			</properties>
+		</profile>
+		<!-- Testing failed-->
+		<profile>
+			<id>testng-failed</id>
+			<properties>
+				<testSuite>testng-failed.xml</testSuite>
+			</properties>
+		</profile>
+	</profiles>
+
+  <build>
+		<plugins>
+		    <!-- Setting for java 8 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.2</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<sourceEncoding>UTF-8</sourceEncoding>
+				</configuration>
+			</plugin>
+					
+			<!-- Execute integration tests -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surefire-plugin.version}</version>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+				<executions>
+					<execution>
+						<id>d-integration-test</id>
+						<phase>integration-test</phase>
+						<goals>
+							<goal>test</goal>
+						</goals>
+						<configuration>
+							<skip>${maven.test.skip}</skip>
+							<systemPropertyVariables>
+								<webdriver.ie.driver>${project.basedir}/Drivers/IEDriverServer</webdriver.ie.driver>
+								<webdriver.chrome.driver>${project.basedir}/Drivers/chromedriver.exe</webdriver.chrome.driver>
+							</systemPropertyVariables>
+							<suiteXmlFiles>
+								<suiteXmlFile>${project.build.OutputDirectory}/Suites/${testSuite}</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

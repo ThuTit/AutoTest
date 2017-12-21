@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>auto-test</artifactId>
+    <groupId>com.autotest.teko</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.autotest.teko</groupId>
+  <artifactId>ui-emoney</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+   <dependencies>
+		<dependency>
+			 <groupId>com.autotest.teko</groupId>
+             <artifactId>ui-common</artifactId>
+             <version>1.0-SNAPSHOT</version>
+		</dependency>
+  </dependencies>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+ </properties>
+  
+  <profiles>
+        <!-- Smoke frontEnd-->
+		<profile>
+			<id>Smoke_FrontEnd</id>
+			<properties>
+				<testSuite>Smoke_FrontEnd.xml</testSuite>
+			</properties>
+		</profile>
+		
+		 <!-- Smoke frontEnd-->
+		<profile>
+			<id>Smoke_Test</id>
+			<properties>
+				<testSuite>Smoke_Test.xml</testSuite>
+			</properties>
+		</profile>
+		
+		<!-- Smoke thong tin tai khoan-->
+		<profile>
+			<id>Smoke_ThongTinTaiKhoan</id>
+			<properties>
+				<testSuite>Smoke_ThongTinTaiKhoan.xml</testSuite>
+			</properties>
+		</profile>
+		
+		<!-- Func_High_FrontEnd-->
+		<profile>
+			<id>Func_High_FrontEnd</id>
+			<properties>
+				<testSuite>Func_High_FrontEnd.xml</testSuite>
+			</properties>
+		</profile>
+		
+		<!-- Testing failed-->
+		<profile>
+			<id>testng-failed</id>
+			<properties>
+				<testSuite>testng-failed.xml</testSuite>
+			</properties>
+		</profile>
+	</profiles>
+
+  <build>
+		<plugins>
+		    <!-- Setting for java 8 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.2</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<sourceEncoding>UTF-8</sourceEncoding>
+				</configuration>
+			</plugin>
+					
+			<!-- Execute integration tests -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surefire-plugin.version}</version>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+				<executions>
+					<execution>
+						<id>d-integration-test</id>
+						<phase>integration-test</phase>
+						<goals>
+							<goal>test</goal>
+						</goals>
+						<configuration>
+							<skip>${maven.test.skip}</skip>
+							<systemPropertyVariables>
+								<webdriver.ie.driver>${project.basedir}/Drivers/IEDriverServer</webdriver.ie.driver>
+								<webdriver.chrome.driver>${project.basedir}/Drivers/chromedriver.exe</webdriver.chrome.driver>
+							</systemPropertyVariables>
+							<suiteXmlFiles>
+								<suiteXmlFile>${project.build.OutputDirectory}/Suites/${testSuite}</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

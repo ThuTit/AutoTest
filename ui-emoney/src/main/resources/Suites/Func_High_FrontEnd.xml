@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke Test" verbose="1" preserve-order="true">
+	<test name="func-high-frontEnd" enabled="true">
+		<groups>
+			<run>
+				<exclude name="pending" />
+			</run>
+		</groups>
+		<classes>
+		    <class name="com.selenium.emoney.func.high.frontend.Func_High_FrontEnd_Login" />
+			<class name="com.selenium.emoney.func.high.frontend.Func_High_FrontEnd_ForgotPassword" />
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name="org.selenium.common.TestReportListener" />
+	</listeners>
+</suite>

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke ThongTinTaiKhoan" verbose="1" preserve-order="true">
+	<test name="smoke-frontEnd" enabled="true">
+		<groups>
+			<run>
+				<exclude name="pending" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.selenium.emoney.smoke.frontend.TestConfig" />
+			<class name="com.selenium.emoney.smoke.frontend.Smoke_FrontEnd_ThongTinTaiKhoan" />
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name="org.selenium.common.TestReportListener" />
+	</listeners>
+</suite>

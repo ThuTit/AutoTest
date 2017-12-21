@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+<testcase internalid="135477" name="Kiểm tra việc hiển thị trang Kiểm kho - Danh sách lịch sử kiểm kho">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[9722]]></externalid>
+	<fullexternalid><![CDATA[WHP-9722]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[1. Loggin]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[2. Horver vào [Kiểm kho] link]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[3. CLick [ Danh sách lịch sử kiểm kho ] link]]></actions>
+	<expectedresults><![CDATA[3. Trang được hiển thị]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="135488" name="Tìm kiếm theo kho">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[9724]]></externalid>
+	<fullexternalid><![CDATA[WHP-9724]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[1. Loggin]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[2. Horver vào [Kiểm kho] link]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[3. CLick [ Danh sách lịch sử kiểm kho ] link]]></actions>
+	<expectedresults><![CDATA[3. Trang được hiển thị]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[4. Nhập keyword]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[5. Nhấn tìm kiếm]]></actions>
+	<expectedresults><![CDATA[5. Kết quả tìm kiếm được hiển thị]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="135495" name="Tìm kiếm theo ngày tạo">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[9725]]></externalid>
+	<fullexternalid><![CDATA[WHP-9725]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[1. Loggin]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[2. Horver vào [Kiểm kho] link]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[3. CLick [ Danh sách lịch sử kiểm kho ] link]]></actions>
+	<expectedresults><![CDATA[3. Trang được hiển thị]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[4. Nhập keyword]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[5. Nhấn tìm kiếm]]></actions>
+	<expectedresults><![CDATA[5. Kết quả tìm kiếm được hiển thị]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="135502" name="Tìm kiếm theo cả kho và ngày tạo">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[9726]]></externalid>
+	<fullexternalid><![CDATA[WHP-9726]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[1. Loggin]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[2. Horver vào [Kiểm kho] link]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[3. CLick [ Danh sách lịch sử kiểm kho ] link]]></actions>
+	<expectedresults><![CDATA[3. Trang được hiển thị]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[4. Nhập keyword]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[5. Nhấn tìm kiếm]]></actions>
+	<expectedresults><![CDATA[5. Kết quả tìm kiếm được hiển thị]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="135531" name="Kiểm tra việc xem chi tiết một lịch sử kiểm kho trong danh sách">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[9730]]></externalid>
+	<fullexternalid><![CDATA[WHP-9730]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[1. Loggin]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[2. Horver vào [Kiểm kho] link]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[3. CLick [ Danh sách lịch sử kiểm kho ] link]]></actions>
+	<expectedresults><![CDATA[3. Trang được hiển thị]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[4. Chọn 1 Kho, click vào nút xem chi tiết]]></actions>
+	<expectedresults><![CDATA[4. Chi tiết lịch sử kiểm kho được hiển thị]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>
